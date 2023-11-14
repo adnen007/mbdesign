@@ -1,15 +1,69 @@
-import React from 'react'
-import { FaShoppingCart, FaUserMinus, FaUserPlus } from 'react-icons/fa'
-import { Link } from 'react-router-dom'
-import styled from 'styled-components'
-import { useProductsContext } from '../context/products_context'
-import { useCartContext } from '../context/cart_context'
-import { useUserContext } from '../context/user_context'
+import React from "react";
+import { FaShoppingCart, FaUserMinus, FaUserPlus } from "react-icons/fa";
+import { Link } from "react-router-dom";
+import styled from "styled-components";
+//import { useProductsContext } from "../context/products_context";
+//import { useCartContext } from "../context/cart_context";
+//import { useUserContext } from "../context/user_context";
 
 const CartButtons = () => {
-  return <h4>cart buttons </h4>
-}
+  return (
+    <Wrapper>
+      <Link to="/cart" className="cart">
+        <p>Cart</p>
+        <FaShoppingCart />
+        <span>5</span>
+      </Link>
+      <Link to="/checkout" className="login">
+        <p>Login</p>
+        <FaUserPlus />
+      </Link>
+    </Wrapper>
+  );
+};
 
+const Wrapper = styled.div`
+  display: none;
+  gap: 20px;
+  > a {
+    display: block;
+    gap: 8px;
+    background-color: transparent;
+    text-decoration: none;
+    color: #102a42;
+    display: flex;
+    font-size: 26px;
+  }
+  .cart {
+    font-size: 26px;
+    position: relative;
+  }
+  .cart p {
+  }
+  .cart svg {
+  }
+  .cart span {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    background-color: var(--clr-primary-5);
+    color: var(--clr-white);
+    top: -11px;
+    right: -11px;
+    font-size: 18px;
+    width: 20px;
+    height: 20px;
+  }
+  @media (width>= 992px) {
+    display: flex;
+  }
+`;
+
+/*
 const Wrapper = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -62,5 +116,5 @@ const Wrapper = styled.div`
       margin-left: 5px;
     }
   }
-`
-export default CartButtons
+`*/
+export default CartButtons;

@@ -1,17 +1,85 @@
-import React from 'react'
-import styled from 'styled-components'
-import logo from '../assets/logo.svg'
-import { FaBars } from 'react-icons/fa'
-import { Link } from 'react-router-dom'
-import { links } from '../utils/constants'
-import CartButtons from './CartButtons'
-import { useProductsContext } from '../context/products_context'
-import { useUserContext } from '../context/user_context'
+import React from "react";
+import styled from "styled-components";
+import logo from "../assets/logo.svg";
+import { FaBars } from "react-icons/fa";
+import { Link } from "react-router-dom";
+//import { links } from '../utils/constants'
+import CartButtons from "./CartButtons";
+//import { useProductsContext } from '../context/products_context'
+//import { useUserContext } from '../context/user_context'
 
 const Nav = () => {
-  return <h4>navbar</h4>
-}
+  return (
+    <NavBarWrapper>
+      <div className="container">
+        <div className="logo">
+          <img src={logo} alt="" />
+        </div>
+        <div className="menu">
+          <FaBars />
+        </div>
+        <ul>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/about">About</Link>
+          </li>
+          <li>
+            <Link to="/products">Products</Link>
+          </li>
+        </ul>
 
+        <CartButtons />
+      </div>
+    </NavBarWrapper>
+  );
+};
+
+const NavBarWrapper = styled.div`
+  .container {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo {
+  }
+  .logo img {
+    max-width: 180px;
+  }
+  .menu {
+    cursor: pointer;
+  }
+  @media (width>=992px) {
+    .menu {
+      display: none;
+    }
+  }
+  .menu svg {
+    font-size: 28px;
+    color: var(--clr-primary-5);
+  }
+  ul {
+    list-style: none;
+    display: none;
+    gap: 30px;
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+
+  ul li a {
+    text-decoration: none;
+    color: var(--clr-grey-1);
+  }
+  @media (width >= 992px) {
+    ul {
+      display: flex;
+    }
+  }
+`;
+
+/*
 const NavContainer = styled.nav`
   height: 5rem;
   display: flex;
@@ -78,5 +146,5 @@ const NavContainer = styled.nav`
     }
   }
 `
-
-export default Nav
+*/
+export default Nav;
