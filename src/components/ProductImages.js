@@ -1,53 +1,87 @@
-import React, { useState } from 'react'
-import styled from 'styled-components'
+import React, { useState } from "react";
+import styled from "styled-components";
+// what i did here i always make the images take as much as they can with and i gave them fixed
+// height
+// later depend on the screen i may change the height of the images or the with of their c
+// container (or let the container always take as much as they can).
+// also give them object-fit:cover to don't destroy the image.
 
-const ProductImages = () => {
-  return <h4>product images</h4>
-}
+// i just followed the design to make the same thing with may webpage but i'm still curious did
+// the instructor did it in my way or he used another method.
+
+const ProductImages = ({ images }) => {
+  const [mainImage, setMainImage] = useState(images[0]);
+
+  const onImageClick = (i) => {
+    setMainImage(images[i]);
+  };
+
+  return (
+    <Wrapper>
+      <div className="image">
+        <div className="main_image">
+          <img src={mainImage.url} alt="" />
+        </div>
+        <div className="images">
+          {images.map((item, i) => {
+            return (
+              <div
+                key={i}
+                className={`secondary_image ${
+                  item.url === mainImage.url ? "active" : null
+                }`}
+                onClick={() => onImageClick(i)}
+              >
+                <img src={item.url} alt="" />
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    </Wrapper>
+  );
+};
 
 const Wrapper = styled.section`
-  .main {
-    height: 600px;
-  }
-  img {
-    width: 100%;
-    display: block;
+  .image .main_image {
+    overflow: hidden;
     border-radius: var(--radius);
+  }
+  .image .main_image img {
+    width: 100%;
+    height: 300px;
     object-fit: cover;
+    display: block;
   }
-  .gallery {
-    margin-top: 1rem;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    column-gap: 1rem;
-    img {
-      height: 100px;
-      cursor: pointer;
+  .images {
+    display: flex;
+    gap: 15px;
+    margin-top: 17px;
+    align-items: center;
+  }
+  .secondary_image {
+    width: 100%;
+    overflow: hidden;
+    border-radius: var(--radius);
+  }
+  .secondary_image.active {
+    border: 3px var(--clr-primary-5) solid;
+    box-sizing: border-box;
+  }
+  .secondary_image img {
+    width: 100%;
+    height: 50px;
+    object-fit: cover;
+    display: block;
+  }
+  @media (min-width: 576px) {
+    .image .main_image img {
+      height: 400px;
+    }
+    .secondary_image img {
+      height: 70px;
     }
   }
-  .active {
-    box-shadow: 0px 0px 0px 2px var(--clr-primary-5);
-  }
-  @media (max-width: 576px) {
-    .main {
-      height: 300px;
-    }
-    .gallery {
-      img {
-        height: 50px;
-      }
-    }
-  }
-  @media (min-width: 992px) {
-    .main {
-      height: 500px;
-    }
-    .gallery {
-      img {
-        height: 75px;
-      }
-    }
-  }
-`
+`;
 
-export default ProductImages
+export default ProductImages;

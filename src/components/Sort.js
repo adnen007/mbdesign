@@ -1,72 +1,95 @@
-import React from 'react'
-import { useFilterContext } from '../context/filter_context'
-import { BsFillGridFill, BsList } from 'react-icons/bs'
-import styled from 'styled-components'
+import React from "react";
+import { useFilterContext } from "../context/filter_context";
+import { BsFillGridFill, BsList } from "react-icons/bs";
+import styled from "styled-components";
 const Sort = () => {
-  return <h4>sort </h4>
-}
+  const {
+    grid_view: grid,
+    setGridView,
+    setListView,
+    updateSort,
+    filtered_products: products,
+    sort,
+  } = useFilterContext();
+  return (
+    <Wrapper>
+      <div className="icons">
+        <div onClick={setGridView} className={`grid ${grid ? "active" : ""}`}>
+          <BsFillGridFill />
+        </div>
+        <div onClick={setListView} className={`list ${grid ? "" : "active"}`}>
+          <BsList />
+        </div>
+      </div>
+      <p>{products.length} Products Found</p>
+      <hr />
+      <div className="sort_by">
+        <label htmlFor="sort_by">sort by</label>
+        <select
+          value={sort}
+          onChange={(e) => updateSort(e.currentTarget.value)}
+          id="sort_by"
+        >
+          <option value="lowest"> {"Price (Lowest)"} </option>
+          <option value="highest">{"Price (Highest)"}</option>
+          <option value="a-z">{"Name (A - Z)"}</option>
+          <option value="z-a">{"Name (Z - A)"}</option>
+        </select>
+      </div>
+    </Wrapper>
+  );
+};
 
 const Wrapper = styled.section`
-  display: grid;
-  grid-template-columns: auto auto 1fr auto;
-  align-items: center;
-  margin-bottom: 2rem;
-  column-gap: 2rem;
-  @media (max-width: 576px) {
-    display: grid;
-    grid-template-columns: 1fr;
-    row-gap: 0.75rem;
-    .btn-container {
-      width: 50px;
-    }
-    label {
-      display: inline-block;
-      margin-right: 0.5rem;
-    }
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  gap: 15px;
+  .icons {
+    display: flex;
+    gap: 10px;
   }
-  @media (min-width: 768px) {
-    column-gap: 2rem;
+  .icons .grid,
+  .icons .list {
+    border: 1px solid var(--clr-black);
+    border-radius: var(--radius);
+    padding: 3px;
+    color: var(--clr-black);
+  }
+  .icons .grid.active,
+  .icons .list.active {
+    color: var(--clr-white);
+    background-color: var(--clr-black);
+  }
+
+  .icons svg {
+    display: block;
+    font-size: 16px;
   }
   p {
+    font-size: 14px;
+    color: var(--clr-grey-3);
+  }
+  hr {
+    border-top: 1px solid var(--clr-grey-8);
+    flex-grow: 1;
+  }
+  .sort_by {
+  }
+  .sort_by label {
     text-transform: capitalize;
-    margin-bottom: 0;
+    margin-right: 10px;
   }
-
-  .btn-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 0.5rem;
-    button {
-      background: transparent;
-      border: 1px solid var(--clr-black);
-      color: var(--clr-black);
-      width: 1.5rem;
-      border-radius: var(--radius);
-      height: 1.5rem;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      cursor: pointer;
-      svg {
-        font-size: 1rem;
-      }
-    }
-    .active {
-      background: var(--clr-black);
-      color: var(--clr-white);
-    }
-  }
-
-  .sort-input {
+  .sort_by select {
+    padding: 4px 8px;
     border-color: transparent;
-    font-size: 1rem;
-    text-transform: capitalize;
-    padding: 0.25rem 0.5rem;
+    font-size: 17px;
+    color: var(--clr-black);
   }
-  label {
-    font-size: 1rem;
-    text-transform: capitalize;
+  @media (width >= 768px) {
+    flex-direction: row;
+    align-items: center;
   }
-`
+`;
 
-export default Sort
+export default Sort;

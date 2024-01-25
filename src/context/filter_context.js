@@ -1,5 +1,5 @@
-import React, { useEffect, useContext, useReducer } from 'react'
-import reducer from '../reducers/filter_reducer'
+import React, { useEffect, useContext, useReducer } from "react";
+import reducer from "../reducers/filter_reducer";
 import {
   LOAD_PRODUCTS,
   SET_GRIDVIEW,
@@ -9,21 +9,91 @@ import {
   UPDATE_FILTERS,
   FILTER_PRODUCTS,
   CLEAR_FILTERS,
-} from '../actions'
-import { useProductsContext } from './products_context'
+} from "../actions";
+import { useProductsContext } from "./products_context";
 
-const initialState = {}
+const initialState = {
+  filters: {
+    text: "",
+    category: "all",
+    company: "all",
+    color: "all",
+    price: 1,
+    min: 0,
+    max: 0,
+    shipping: false,
+  },
+  filtered_products: [],
+  all_products: [],
+  grid_view: true,
+  sort: "lowest",
+};
 
-const FilterContext = React.createContext()
+const FilterContext = React.createContext();
 
 export const FilterProvider = ({ children }) => {
+  const { products } = useProductsContext();
+  const [state, dispatch] = useReducer(reducer, initialState);
+  // here you can't just get products and include them in the intialState cause durring the
+  // first render the product would be empty cause we still didn't fetch them casue of that.
+  // we dispatch them in the useEffect whenever the value of products change.
+
+  useEffect(() => {
+    dispatch({ type: LOAD_PRODUCTS, payload: products });
+  }, [products]);
+
+  useEffect(() => {
+    dispatch({ type: SORT_PRODUCTS });
+    if (state.all_products.length > 0) {
+      dispatch({ type: FILTER_PRODUCTS });
+    }
+  }, [state.sort, state.filters, products]);
+
+  const setGridView = () => {
+    dispatch({ type: SET_GRIDVIEW });
+  };
+  const setListView = () => {
+    dispatch({ type: SET_LISTVIEW });
+  };
+
+  const updateSort = (criterion) => {
+    dispatch({ type: UPDATE_SORT, payload: criterion });
+  };
+
+  const updateFilters = (e) => {
+    if (e.target.name === "shipping") {
+      dispatch({
+        type: UPDATE_FILTERS,
+        payload: { name: e.target.name, value: e.target.checked },
+      });
+    } else {
+      dispatch({
+        type: UPDATE_FILTERS,
+        payload: { name: e.target.name, value: e.target.value },
+      });
+    }
+  };
+
+  const clearFilters = () => {
+    dispatch({ type: CLEAR_FILTERS });
+  };
+
   return (
-    <FilterContext.Provider value='filter context'>
+    <FilterContext.Provider
+      value={{
+        ...state,
+        setGridView,
+        setListView,
+        updateSort,
+        updateFilters,
+        clearFilters,
+      }}
+    >
       {children}
     </FilterContext.Provider>
-  )
-}
+  );
+};
 // make sure use
 export const useFilterContext = () => {
-  return useContext(FilterContext)
-}
+  return useContext(FilterContext);
+};

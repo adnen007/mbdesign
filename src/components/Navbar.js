@@ -1,33 +1,40 @@
 import React from "react";
 import styled from "styled-components";
-import logo from "../assets/logo.svg";
+import logo from "../assets/logo.png";
 import { FaBars } from "react-icons/fa";
 import { Link } from "react-router-dom";
-//import { links } from '../utils/constants'
+import { links } from "../utils/constants";
 import CartButtons from "./CartButtons";
-//import { useProductsContext } from '../context/products_context'
-//import { useUserContext } from '../context/user_context'
+import { useProductsContext } from "../context/products_context";
+import { useUserContext } from "../context/user_context";
 
 const Nav = () => {
+  const { openSidebar } = useProductsContext();
+  const { myUser } = useUserContext();
   return (
     <NavBarWrapper>
       <div className="container">
         <div className="logo">
-          <img src={logo} alt="" />
+          <Link to="/">
+            <img src={logo} alt="" />
+          </Link>
         </div>
-        <div className="menu">
+        <div className="menu" onClick={openSidebar}>
           <FaBars />
         </div>
         <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/about">About</Link>
-          </li>
-          <li>
-            <Link to="/products">Products</Link>
-          </li>
+          {links.map((link) => {
+            return (
+              <li key={link.id}>
+                <Link to={link.url}>{link.text}</Link>
+              </li>
+            );
+          })}
+          {myUser ? (
+            <li>
+              <Link to="/checkout">checkout</Link>
+            </li>
+          ) : null}
         </ul>
 
         <CartButtons />
@@ -64,13 +71,21 @@ const NavBarWrapper = styled.div`
     list-style: none;
     display: none;
     gap: 30px;
-    font-size: 20px;
+    font-size: 18px;
     letter-spacing: 1px;
+    text-transform: capitalize;
+  }
+
+  ul li {
   }
 
   ul li a {
     text-decoration: none;
     color: var(--clr-grey-1);
+    padding: 2px;
+    &:hover {
+      border-bottom: 2px solid var(--clr-primary-7);
+    }
   }
   @media (width >= 992px) {
     ul {
@@ -79,72 +94,4 @@ const NavBarWrapper = styled.div`
   }
 `;
 
-/*
-const NavContainer = styled.nav`
-  height: 5rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  .nav-center {
-    width: 90vw;
-    margin: 0 auto;
-    max-width: var(--max-width);
-  }
-  .nav-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    img {
-      width: 175px;
-      margin-left: -15px;
-    }
-  }
-  .nav-toggle {
-    background: transparent;
-    border: transparent;
-    color: var(--clr-primary-5);
-    cursor: pointer;
-    svg {
-      font-size: 2rem;
-    }
-  }
-  .nav-links {
-    display: none;
-  }
-  .cart-btn-wrapper {
-    display: none;
-  }
-  @media (min-width: 992px) {
-    .nav-toggle {
-      display: none;
-    }
-    .nav-center {
-      display: grid;
-      grid-template-columns: auto 1fr auto;
-      align-items: center;
-    }
-    .nav-links {
-      display: flex;
-      justify-content: center;
-      li {
-        margin: 0 0.5rem;
-      }
-      a {
-        color: var(--clr-grey-3);
-        font-size: 1rem;
-        text-transform: capitalize;
-        letter-spacing: var(--spacing);
-        padding: 0.5rem;
-        &:hover {
-          border-bottom: 2px solid var(--clr-primary-7);
-        }
-      }
-    }
-    .cart-btn-wrapper {
-      display: grid;
-    }
-  }
-`
-*/
 export default Nav;

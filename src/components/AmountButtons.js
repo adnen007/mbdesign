@@ -1,34 +1,57 @@
-import React from 'react'
-import styled from 'styled-components'
-import { FaPlus, FaMinus } from 'react-icons/fa'
+import React from "react";
+import styled from "styled-components";
+import { Wrapper as CartItemWrapper } from "./CartItem";
+import { FaPlus, FaMinus } from "react-icons/fa";
 
-const AmountButtons = () => {
-  return <h4>amount buttons </h4>
-}
+const AmountButtons = ({ amount, id, stock, toggleAmount }) => {
+  const onMinusClick = () => {
+    if (amount - 1 >= 1) {
+      toggleAmount(-1, id);
+    }
+  };
+
+  const onPlusClick = () => {
+    if (amount + 1 <= stock) {
+      toggleAmount(1, id);
+    }
+  };
+  return (
+    <Wrapper>
+      <FaMinus onClick={onMinusClick} />
+      <span>{amount}</span>
+      <FaPlus onClick={onPlusClick} />
+    </Wrapper>
+  );
+};
 
 const Wrapper = styled.div`
-  display: grid;
-  width: 140px;
-  justify-items: center;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
   align-items: center;
-  h2 {
-    margin-bottom: 0;
+  gap: 40px;
+  padding: 10px 0;
+
+  span {
+    font-size: 30px;
+    font-weight: bold;
   }
-  button {
-    background: transparent;
-    border-color: transparent;
-    cursor: pointer;
-    padding: 1rem 0;
-    width: 2rem;
-    height: 1rem;
+  ${CartItemWrapper} & {
     display: flex;
     align-items: center;
-    justify-content: center;
+    gap: 18px;
+    padding: 10px 0;
+    font-size: 16px;
+    span {
+      font-size: 18px;
+      font-weight: bold;
+    }
+    @media (min-width: 768px) {
+      gap: 20px;
+      font-size: 16px;
+      span {
+        font-size: 18px;
+      }
+    }
   }
-  h2 {
-    margin-bottom: 0;
-  }
-`
+`;
 
-export default AmountButtons
+export default AmountButtons;

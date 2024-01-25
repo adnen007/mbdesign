@@ -1,34 +1,33 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from "react";
+import styled from "styled-components";
 
 const CartColumns = () => {
-  return <h4>cart columns</h4>
-}
+  return (
+    <Wrapper>
+      <p>item</p>
+      <p>price</p>
+      <p>quantitiy</p>
+      <p>subtotal</p>
+      <p></p>
+    </Wrapper>
+  );
+};
 
 const Wrapper = styled.div`
   display: none;
-  @media (min-width: 776px) {
-    display: block;
-    .content {
-      display: grid;
-      grid-template-columns: 316px 1fr 1fr 1fr auto;
-      justify-items: center;
-      column-gap: 1rem;
-      h5 {
-        color: var(--clr-grey-5);
-        font-weight: 400;
-      }
-    }
 
-    span {
-      width: 2rem;
-      height: 2rem;
-    }
-    hr {
-      margin-top: 1rem;
-      margin-bottom: 3rem;
-    }
+  > p {
+    text-align: center;
+    font-size: 16px;
   }
-`
+  @media (min-width: 768px) {
+    display: grid;
+    grid-template-columns: 300px 80px 80px 80px 80px;
+    justify-content: space-between;
+    color: var(--clr-grey-5);
+    font-weight: 400;
+    text-transform: capitalize;
+  }
+`;
 
-export default CartColumns
+export default CartColumns;

@@ -1,72 +1,125 @@
-import React from 'react'
-import styled from 'styled-components'
-import { services } from '../utils/constants'
+import React from "react";
+import styled from "styled-components";
+import { services } from "../utils/constants";
 
 const Services = () => {
-  return <h4>services </h4>
-}
+  return (
+    <Wrapper>
+      <div className="container">
+        <div className="intro">
+          <h2>custom furniture built only for you</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe dolorum debitis
+            consectetur reprehenderit non aliquam voluptates dolore aut vero consequuntur.
+          </p>
+        </div>
+        <div className="services">
+          {services.map(({ icon, id, title, text }) => {
+            return (
+              <div className="box" key={id}>
+                <div className="icon">{icon}</div>
+                <div className="title">{title}</div>
+                <div className="text">{text}</div>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    </Wrapper>
+  );
+};
 
 const Wrapper = styled.section`
-  h3,
-  h4 {
-    color: var(--clr-primary-1);
-  }
-  padding: 5rem 0;
+  background-color: var(--clr-primary-10);
+  padding: 80px 0;
+  .intro {
+    display: flex;
+    flex-direction: column;
 
-  background: var(--clr-primary-10);
-
-  .header h3 {
-    margin-bottom: 2rem;
-  }
-  p {
-    margin-bottom: 0;
-    line-height: 1.8;
-    color: var(--clr-primary-3);
-  }
-  .services-center {
-    margin-top: 4rem;
-    display: grid;
-    gap: 2.5rem;
-  }
-  .service {
-    background: var(--clr-primary-7);
-    text-align: center;
-    padding: 2.5rem 2rem;
-    border-radius: var(--radius);
-    p {
-      color: var(--clr-primary-2);
+    h2 {
+      width: fit-content;
+      text-align: left;
+      text-transform: capitalize;
+      letter-spacing: 0.8px;
+      word-spacing: 2px;
+      color: var(--clr-primary-1);
+      width: 225px;
+      line-height: 29px;
     }
-  }
-  span {
-    width: 4rem;
-    height: 4rem;
-    display: grid;
-    margin: 0 auto;
-    place-items: center;
-    margin-bottom: 1rem;
-    border-radius: 50%;
-    background: var(--clr-primary-10);
-    color: var(--clr-primary-1);
-    svg {
-      font-size: 2rem;
+    p {
+      margin-top: 30px;
+      color: var(--clr-primary-3);
+      max-width: 580px;
+      font-size: 14px;
+      line-height: 26px;
     }
   }
   @media (min-width: 992px) {
-    .header {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
+    .intro {
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: row;
+      h2 {
+        font-size: 32px;
+        width: 300px;
+        line-height: 32px;
+      }
+      p {
+        font-size: 16px;
+        max-width: 50%;
+        margin-top: 0px;
+      }
     }
   }
-  @media (min-width: 576px) {
-    .services-center {
-      grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  .services {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    gap: 50px;
+  }
+  .services .box {
+    background-color: var(--clr-primary-7);
+
+    padding: 30px;
+    border-radius: var(--radius);
+
+    .icon {
+      background-color: var(--clr-primary-10);
+      width: fit-content;
+      margin: auto;
+      padding: 15px;
+      border-radius: 50%;
+      svg {
+        display: block;
+        font-size: 32px;
+      }
+    }
+    .title {
+      margin: auto;
+      margin-top: 16px;
+      width: fit-content;
+      font-weight: 700;
+      text-transform: capitalize;
+      font-size: 20px;
+      letter-spacing: 1px;
+    }
+    .text {
+      margin-top: 16px;
+      width: fit-content;
+      font-size: 14px;
+      text-align: center;
+      color: var(--clr-primary-1);
+      line-height: 26px;
     }
   }
-  @media (min-width: 1280px) {
-    padding: 0;
-    .section-center {
-      transform: translateY(5rem);
+  @media (min-width: 1200px) {
+    & {
+      padding: 0;
+    }
+    .services {
+      transform: translateY(80px);
     }
   }
-`
-export default Services
+`;
+
+export default Services;
