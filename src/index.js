@@ -19,6 +19,8 @@ import AuthWrapper from "./pages/AuthWrapper";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
+//6NW4L6X1T4GDYRV43G3EJ8Y6 security key
+
 root.render(
   <Auth0Provider
     domain="dev-wovv2r1ycycrxesr.us.auth0.com"
