@@ -47,7 +47,7 @@ export const FilterProvider = ({ children }) => {
     if (state.all_products.length > 0) {
       dispatch({ type: FILTER_PRODUCTS });
     }
-  }, [state.sort, state.filters, products]);
+  }, [state.sort, state.filters, products, state.all_products.length]);
 
   const setGridView = () => {
     dispatch({ type: SET_GRIDVIEW });

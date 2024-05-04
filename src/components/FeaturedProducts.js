@@ -17,6 +17,7 @@ const FeaturedProducts = () => {
     return <Loading />;
   }
   if (error) {
+    console.log(error);
     return <Error />;
   }
   return (

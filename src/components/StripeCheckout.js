@@ -1,5 +1,6 @@
-import React, { useState, useEffect } from 'react'
-import styled from 'styled-components'
+import React from "react";
+import styled from "styled-components";
+/*
 import { loadStripe } from '@stripe/stripe-js'
 import {
   CardElement,
@@ -13,25 +14,25 @@ import { useUserContext } from '../context/user_context'
 import { formatPrice } from '../utils/helpers'
 import { useHistory } from 'react-router-dom'
 
+*/
 const CheckoutForm = () => {
-  return <h4>hello from Stripe Checkout </h4>
-}
+  return <h4>hello from Stripe Checkout </h4>;
+};
 
 const StripeCheckout = () => {
   return (
     <Wrapper>
       <CheckoutForm />
     </Wrapper>
-  )
-}
+  );
+};
 
 const Wrapper = styled.section`
   form {
     width: 30vw;
     align-self: center;
     box-shadow: 0px 0px 0px 0.5px rgba(50, 50, 93, 0.1),
-      0px 2px 5px 0px rgba(50, 50, 93, 0.1),
-      0px 1px 1.5px 0px rgba(0, 0, 0, 0.07);
+      0px 2px 5px 0px rgba(50, 50, 93, 0.1), 0px 1px 1.5px 0px rgba(0, 0, 0, 0.07);
     border-radius: 7px;
     padding: 40px;
   }
@@ -122,7 +123,7 @@ const Wrapper = styled.section`
   .spinner:before,
   .spinner:after {
     position: absolute;
-    content: '';
+    content: "";
   }
   .spinner:before {
     width: 10.4px;
@@ -163,6 +164,6 @@ const Wrapper = styled.section`
       width: 80vw;
     }
   }
-`
+`;
 
-export default StripeCheckout
+export default StripeCheckout;

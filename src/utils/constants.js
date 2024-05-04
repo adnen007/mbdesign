@@ -39,9 +39,9 @@ export const services = [
   },
 ];
 
-export const products_url = "https://course-api.com/react-store-products";
+export const products_url = "https://www.course-api.com/react-store-products ";
 
-export const single_product_url = `https://course-api.com/react-store-single-product?id=`;
+export const single_product_url = `https://www.course-api.com/react-store-single-product?id=`;
 
 export const colors = ["#ff0000", "#00ff00", "#0000ff", "#000000", "#ffb900"];
 
