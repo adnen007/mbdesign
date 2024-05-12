@@ -39,7 +39,7 @@ const Order = () => {
           <input
             type="hidden"
             name="redirect"
-            value="http://localhost:3000/thank"
+            value="https://mahergath.netlify.app/thank"
           ></input>
           <div>
             <label htmlFor="name">Name</label>
