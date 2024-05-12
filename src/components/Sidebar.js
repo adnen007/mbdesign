@@ -6,11 +6,9 @@ import { FaTimes } from "react-icons/fa";
 import { links } from "../utils/constants";
 import styled from "styled-components";
 import CartButtons from "./CartButtons";
-import { useUserContext } from "../context/user_context";
 
 const Sidebar = () => {
   const { isSidebarOpen, closeSidebar } = useProductsContext();
-  const { myUser } = useUserContext();
 
   return (
     <Wrapper className={isSidebarOpen ? "active" : "desactive"}>
@@ -32,11 +30,6 @@ const Sidebar = () => {
                 </li>
               );
             })}
-            {myUser ? (
-              <li onClick={closeSidebar}>
-                <Link to="/checkout">checkout</Link>
-              </li>
-            ) : null}
           </ul>
         </nav>
         <CartButtons style={{ display: "flex" }} />

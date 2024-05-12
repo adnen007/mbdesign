@@ -3,9 +3,10 @@ import styled from "styled-components";
 import { useCartContext } from "../context/cart_context";
 import { Link } from "react-router-dom";
 import { CartContent, PageHero } from "../components";
+import Order from "../components/Order";
 
 const CartPage = () => {
-  const { cart } = useCartContext();
+  const { cart, order } = useCartContext();
   if (cart.length === 0) {
     return (
       <Wrapper className="page_10">
@@ -17,36 +18,31 @@ const CartPage = () => {
     );
   }
   return (
-    <>
+    <Wrapper>
       <PageHero title="Cart" />
       <CartContent />
-    </>
+      <div className={order ? "order active" : "order"}>
+        <Order />
+      </div>
+    </Wrapper>
   );
 };
 
 const Wrapper = styled.main`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  > div {
-    transform: translateY(-100%);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  .order {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #eee;
+    transform: translatex(-100%);
+    transition: 0.6s;
+    opacity: 0;
   }
-  h1 {
-    font-size: 42px;
-    text-transform: capitalize;
-  }
-  a {
-    background-color: var(--clr-primary-5);
-    color: white;
-    font-size: 20px;
-    padding: 10px 18px;
-    border-radius: 5px;
-    text-transform: uppercase;
-    display: block;
+  .order.active {
+    transform: translatex(0%);
+    opacity: 1;
   }
 `;
 

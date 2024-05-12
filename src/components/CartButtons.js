@@ -1,16 +1,14 @@
 import React from "react";
-import { FaShoppingCart, FaUserPlus, FaUserMinus } from "react-icons/fa";
+import { FaShoppingCart } from "react-icons/fa";
 // FaUserMinus
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { useCartContext } from "../context/cart_context";
 import { useProductsContext } from "../context/products_context";
-import { useUserContext } from "../context/user_context";
 
 const CartButtons = () => {
   const { totalAmount } = useCartContext();
   const { closeSidebar } = useProductsContext();
-  const { myUser, loginWithRedirect, logout } = useUserContext();
 
   return (
     <Wrapper className="cart_buttons" onClick={closeSidebar}>
@@ -19,20 +17,6 @@ const CartButtons = () => {
         <FaShoppingCart />
         <span>{totalAmount}</span>
       </Link>
-      {myUser ? (
-        <div
-          onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}
-          className="logout"
-        >
-          <p>Logout</p>
-          <FaUserMinus />
-        </div>
-      ) : (
-        <div onClick={loginWithRedirect} className="login">
-          <p>Login</p>
-          <FaUserPlus />
-        </div>
-      )}
     </Wrapper>
   );
 };

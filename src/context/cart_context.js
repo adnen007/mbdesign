@@ -6,9 +6,16 @@ import {
   TOGGLE_CART_ITEM_AMOUNT,
   CLEAR_CART,
   COUNT_CART_TOTALS,
+  TOGGLE_ORDER,
 } from "../actions";
 
-let initialState = { cart: [], total_amount: 0, total: 0, shipping_fee: 534 };
+let initialState = {
+  cart: [],
+  total_amount: 0,
+  total: 0,
+  shipping_fee: 534,
+  order: false,
+};
 const oldCart = JSON.parse(localStorage.getItem("oldCart"));
 if (oldCart) {
   // here we will check if we have data reltated to the cart in the localStorage we will
@@ -48,6 +55,11 @@ export const CartProvider = ({ children }) => {
   const clearCart = () => {
     dispatch({ type: CLEAR_CART });
   };
+
+  const toggleOrder = () => {
+    dispatch({ type: TOGGLE_ORDER });
+  };
+
   // it is a very good practice use the dispatch only in the context . and if you want
   // to update the state from a children component just create a function does that using the dispatch
   // but make sure to create that function in the context so in your mind you know that there
@@ -55,7 +67,7 @@ export const CartProvider = ({ children }) => {
   // also if an error happen you will know where that error happened from the functions names.
   return (
     <CartContext.Provider
-      value={{ ...state, addToCart, toggleAmount, removeItem, clearCart }}
+      value={{ ...state, addToCart, toggleAmount, removeItem, clearCart, toggleOrder }}
     >
       {children}
     </CartContext.Provider>

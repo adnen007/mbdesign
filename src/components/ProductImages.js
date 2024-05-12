@@ -85,3 +85,26 @@ const Wrapper = styled.section`
 `;
 
 export default ProductImages;
+
+const images = [
+  {
+    url: "https://www.course-api.com/images/store/product-1.jpeg",
+    smallUrl: "https://www.course-api.com/images/store/product-1.jpeg",
+  },
+  {
+    url: "https://www.course-api.com/images/store/extra-product-1.jpeg",
+    smallUrl: "https://www.course-api.com/images/store/extra-product-1.jpeg",
+  },
+  {
+    url: "https://www.course-api.com/images/store/extra-product-2.jpeg",
+    smallUrl: "https://www.course-api.com/images/store/extra-product-2.jpeg",
+  },
+  {
+    url: "https://www.course-api.com/images/store/extra-product-3.jpeg",
+    smallUrl: "https://www.course-api.com/images/store/extra-product-3.jpeg",
+  },
+  {
+    url: "https://www.course-api.com/images/store/extra-product-4.jpeg",
+    smallUrl: "https://www.course-api.com/images/store/extra-product-4.jpeg",
+  },
+];

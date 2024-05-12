@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { useProductsContext } from "../context/products_context";
-import { single_product_url as url } from "../utils/constants";
+import { products_url as url } from "../utils/constants";
 // import { formatPrice } from "../utils/helpers";
 import { Loading, Error, ProductImages, AddToCart, Stars, PageHero } from "../components";
 import styled from "styled-components";
@@ -14,65 +14,63 @@ const SingleProductPage = () => {
 
   const { id } = useParams();
 
-  const {
-    fetchSingleProduct,
-    single_product,
-    single_product_loading,
-    single_product_error,
-  } = useProductsContext();
+  const { fetchProducts, products_loading, products_error, products } =
+    useProductsContext();
 
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetchSingleProduct(url + id);
+    if (!products.length) {
+      fetchProducts(url);
+    }
   }, []);
 
   useEffect(() => {
-    if (single_product_error) {
+    if (products_error) {
       setTimeout(() => {
         navigate("/");
       }, 3000);
     }
-  }, [single_product_error, navigate]);
+  }, [products_error, navigate]);
 
-  if (single_product_loading) {
+  if (products_loading) {
     return <Loading />;
   }
-  if (single_product_error) {
+  if (products_error) {
     return <Error />;
   }
+  const singleProduct = products.find((el) => {
+    return el.id === id;
+  });
+
   return (
     <Wrapper>
-      <PageHero title="Products" product={single_product.name} />
+      <PageHero title="Products" product={singleProduct.name} />
+
       <div className="container">
         <Link className="btn" to="/products">
           back to products
         </Link>
         <div className="content">
           <div className="image_section">
-            <ProductImages images={single_product.images} />
+            <ProductImages images={singleProduct.images} />
           </div>
           <div className="info_section">
-            <h2 className="name">{single_product.name}</h2>
-            <div className="rate">
-              <Stars stars={single_product.stars} reviews={single_product.reviews} />
-            </div>
-            <div className="price">${single_product.price / 100}</div>
-            <div className="description"> {single_product.description} </div>
+            <h2 className="name">{singleProduct.name}</h2>
+
+            <div className="price">${singleProduct.price / 100}</div>
+            <div className="description"> {singleProduct.description} </div>
             <div className="state">
               <p>
                 <span>Available:</span>
-                {single_product.stock > 0 ? "In Stock" : "Out Of Stock"}
+                {singleProduct.stock > 0 ? "In Stock" : "Out Of Stock"}
               </p>
               <p>
-                <span>SKU:</span> {single_product.id}
-              </p>
-              <p>
-                <span>Band:</span> {single_product.company}
+                <span>SKU:</span> {singleProduct.id}
               </p>
             </div>
             <hr />
-            {single_product.stock > 0 && <AddToCart product={single_product} />}
+            {singleProduct.stock > 0 && <AddToCart product={singleProduct} />}
           </div>
         </div>
       </div>

@@ -4,6 +4,7 @@ import {
   COUNT_CART_TOTALS,
   REMOVE_CART_ITEM,
   TOGGLE_CART_ITEM_AMOUNT,
+  TOGGLE_ORDER,
 } from "../actions";
 
 const cart_reducer = (state, { type, payload }) => {
@@ -54,6 +55,9 @@ const cart_reducer = (state, { type, payload }) => {
       return total + current.amount * current.price;
     }, 0);
     return { ...state, total, totalAmount };
+  }
+  if (type === TOGGLE_ORDER) {
+    return { ...state, order: !state.order };
   }
   throw new Error(`No Matching "${type}" - action type`);
 };

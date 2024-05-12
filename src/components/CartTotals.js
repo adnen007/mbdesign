@@ -1,12 +1,10 @@
 import React from "react";
 import styled from "styled-components";
 import { useCartContext } from "../context/cart_context";
-import { useUserContext } from "../context/user_context";
 import { Link } from "react-router-dom";
 
 const CartTotals = () => {
-  const { total, shipping_fee } = useCartContext();
-  const { myUser, loginWithRedirect } = useUserContext();
+  const { total, shipping_fee, toggleOrder } = useCartContext();
   return (
     <Wrapper>
       <div className="content">
@@ -24,15 +22,9 @@ const CartTotals = () => {
           <span>${(total + shipping_fee) / 100}</span>
         </div>
       </div>
-      {myUser ? (
-        <button>
-          <Link to="/checkout">PROCEED TO CHECKOUT</Link>
-        </button>
-      ) : (
-        <button onClick={loginWithRedirect}>
-          <span>LOGIN</span>
-        </button>
-      )}
+      <button onClick={toggleOrder}>
+        <span>Place Order</span>
+      </button>
     </Wrapper>
   );
 };
@@ -76,7 +68,7 @@ const Wrapper = styled.section`
   }
   button a,
   button span {
-    padding: 5px;
+    padding: 8px 5px;
     display: inline-block;
     border-radius: var(--radius);
     width: 100%;
@@ -85,6 +77,7 @@ const Wrapper = styled.section`
     font-weight: 700;
     background: var(--clr-primary-5);
     color: var(--clr-primary-10);
+    font-size: 18px;
     cursor: pointer;
   }
   @media (min-width: 425px) {
