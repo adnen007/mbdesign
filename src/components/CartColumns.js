@@ -4,10 +4,10 @@ import styled from "styled-components";
 const CartColumns = () => {
   return (
     <Wrapper>
-      <p>item</p>
-      <p>price</p>
-      <p>quantitiy</p>
-      <p>subtotal</p>
+      <p>Article</p>
+      <p>Prix</p>
+      <p>Quantité</p>
+      <p>Sous-total</p>
       <p></p>
     </Wrapper>
   );

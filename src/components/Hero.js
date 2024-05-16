@@ -10,14 +10,14 @@ const Hero = () => {
     <Wrapper>
       <div className="container section_header">
         <article>
-          <h3>design your comfort zone</h3>
+          <h3>Concevez votre zone de confort</h3>
           <p>
             {text.split(" ").map((e) => {
               return <span> {e}</span>;
             })}
           </p>
           <Link className="btn" to="/products">
-            shop now
+            Explorer
           </Link>
         </article>
         <div className="images">
@@ -38,7 +38,15 @@ const Wrapper = styled.section`
     display: flex;
     flex-direction: column;
     gap: 20px;
-    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+  @media (min-width: 768px) {
+    .container {
+      padding-top: 0;
+      padding-bottom: 0;
+      justify-content: center;
+    }
   }
   @media (min-width: 992px) {
     .container {
@@ -64,6 +72,18 @@ const Wrapper = styled.section`
     color: var(--clr-grey-5);
     margin-top: 15px;
     line-height: var(--line-height);
+  }
+  @media (max-width: 768px) {
+    article h3 {
+      font-size: 36px;
+      text-transform: capitalize;
+    }
+    article p {
+      color: var(--clr-grey-5);
+      margin-top: 32px;
+      line-height: var(--line-height);
+      font-size: 16px;
+    }
   }
   article p > span {
     opacity: 0;
@@ -147,10 +167,100 @@ const Wrapper = styled.section`
   article p > span:nth-child(26) {
     animation: frog 0.7s 2.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
   }
+  article p > span:nth-child(27) {
+    animation: frog 0.7s 2.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  article p > span:nth-child(28) {
+    animation: frog 0.7s 2.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  article p > span:nth-child(29) {
+    animation: frog 0.7s 2.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  article p > span:nth-child(30) {
+    animation: frog 0.7s 2.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  article p > span:nth-child(31) {
+    animation: frog 0.7s 3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  article p > span:nth-child(32) {
+    animation: frog 0.7s 3.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  article p > span:nth-child(33) {
+    animation: frog 0.7s 3.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  article p > span:nth-child(34) {
+    animation: frog 0.7s 3.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  article p > span:nth-child(35) {
+    animation: frog 0.7s 3.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  article p > span:nth-child(36) {
+    animation: frog 0.7s 3.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  article p > span:nth-child(37) {
+    animation: frog 0.7s 3.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  article p > span:nth-child(38) {
+    animation: frog 0.7s 3.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  article p > span:nth-child(39) {
+    animation: frog 0.7s 3.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  article p > span:nth-child(40) {
+    animation: frog 0.7s 3.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  article p > span:nth-child(41) {
+    animation: frog 0.7s 4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  article p > span:nth-child(42) {
+    animation: frog 0.7s 4.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  article p > span:nth-child(43) {
+    animation: frog 0.7s 4.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  article p > span:nth-child(44) {
+    animation: frog 0.7s 4.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  article p > span:nth-child(45) {
+    animation: frog 0.7s 4.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  article p > span:nth-child(46) {
+    animation: frog 0.7s 4.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  article p > span:nth-child(47) {
+    animation: frog 0.7s 4.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  article p > span:nth-child(48) {
+    animation: frog 0.7s 4.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  article p > span:nth-child(49) {
+    animation: frog 0.7s 4.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  article p > span:nth-child(50) {
+    animation: frog 0.7s 4.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  article p > span:nth-child(51) {
+    animation: frog 0.7s 5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  article p > span:nth-child(52) {
+    animation: frog 0.7s 5.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  article p > span:nth-child(53) {
+    animation: frog 0.7s 5.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  article p > span:nth-child(54) {
+    animation: frog 0.7s 5.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  article p > span:nth-child(55) {
+    animation: frog 0.7s 5.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  article p > span:nth-child(56) {
+    animation: frog 0.7s 5.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
 
   a {
     display: block;
-    margin-top: 30px;
+    margin-top: 40px;
     width: fit-content;
     padding: 9px 13px;
     font-size: 15px;

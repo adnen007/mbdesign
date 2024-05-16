@@ -6,6 +6,8 @@ import ListView from "./ListView";
 const ProductList = () => {
   const { filtered_products, grid_view } = useFilterContext();
 
+  console.log("2: products in the products list", filtered_products);
+
   if (filtered_products < 1) {
     return <h2>there isn't any products to display</h2>;
   }

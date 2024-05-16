@@ -19,7 +19,7 @@ const CartPage = () => {
   }
   return (
     <Wrapper>
-      <PageHero title="Cart" />
+      <PageHero title="Panier" />
       <CartContent />
       <div className={order ? "order active" : "order"}>
         <Order />

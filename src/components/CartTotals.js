@@ -9,21 +9,21 @@ const CartTotals = () => {
     <Wrapper>
       <div className="content">
         <div className="row">
-          <span>subtotal:</span>
-          <span>${total / 100}</span>
+          <span>Sous-total:</span>
+          <span>{total / 100}dt</span>
         </div>
         <div className="row">
-          <span>shipping fee</span>
-          <span>${shipping_fee / 100}</span>
+          <span>Frais de livraison</span>
+          <span>{shipping_fee / 100}dt</span>
         </div>
         <hr />
         <div className="row">
           <span>order total</span>
-          <span>${(total + shipping_fee) / 100}</span>
+          <span>{(total + shipping_fee) / 100}dt</span>
         </div>
       </div>
       <button onClick={toggleOrder}>
-        <span>Place Order</span>
+        <span>Passer la commande</span>
       </button>
     </Wrapper>
   );

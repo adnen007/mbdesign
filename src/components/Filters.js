@@ -26,14 +26,14 @@ const Filters = () => {
     <Wrapper>
       <div className="search">
         <input
-          placeholder="Search"
+          placeholder="Rechercher"
           name="text"
           type="text"
           onChange={updateFilters}
           value={text}
         />
       </div>
-      <h4>category</h4>
+      <h4>Catégorie</h4>
       <form
         onChange={updateFilters}
         value={category}
@@ -42,7 +42,7 @@ const Filters = () => {
       >
         <div>
           <input value="all" id="all" name="category" type="radio" />
-          <label htmlFor="all"> All </label>
+          <label htmlFor="all"> Tous </label>
         </div>
 
         {categories.map((element, i) => {
@@ -54,23 +54,12 @@ const Filters = () => {
           );
         })}
       </form>
-      <h4>company</h4>
-      <select name="company" value={company} onChange={updateFilters}>
-        <option value="all">all</option>
 
-        {companies.map((element, i) => {
-          return (
-            <option key={i} value={element}>
-              {element}
-            </option>
-          );
-        })}
-      </select>
-      <h4>colors</h4>
+      <h4>Couleurs</h4>
       <form value={color} onChange={updateFilters} className="colors">
         <div>
           <input ref={colorForm} value="all" id="all_colors" name="color" type="radio" />
-          <label htmlFor="all_colors"> All </label>
+          <label htmlFor="all_colors"> Tous </label>
         </div>
         {colors.map((item, i) => {
           return (
@@ -83,9 +72,9 @@ const Filters = () => {
           );
         })}
       </form>
-      <h4>price</h4>
+      <h4>Prix</h4>
       <div className="price">
-        <p>${price / 100}</p>
+        <p>{price / 100} dt</p>
         <input
           onChange={updateFilters}
           type="range"
@@ -96,7 +85,7 @@ const Filters = () => {
         ></input>
       </div>
       <div className="shipping">
-        <label htmlFor="shipping">Free Shipping</label>
+        <label htmlFor="shipping">Livraison Gratuite</label>
         <input onClick={updateFilters} type="checkbox" name="shipping" id="shipping" />
       </div>
       <button
@@ -109,7 +98,7 @@ const Filters = () => {
         }}
         className="clear"
       >
-        clear filter
+        Effacer le Filtre
       </button>
     </Wrapper>
   );

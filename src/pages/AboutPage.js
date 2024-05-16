@@ -6,7 +6,7 @@ import aboutImg from "../assets/hero-bcg.jpeg";
 const AboutPage = () => {
   return (
     <Wrapper className="">
-      <PageHero title={"about"} />
+      <PageHero title={"À propos"} />
       <div className="container">
         <div className="content page">
           <div className="image">
@@ -14,16 +14,19 @@ const AboutPage = () => {
           </div>
           <div className="story">
             <h2>
-              Our Story <span></span>
+              MBdesign en Bref <span></span>
             </h2>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit culpa pariatur
-              voluptas, at ratione consequatur eius hic eaque! Ab magni exercitationem
-              temporibus consequatur rem amet assumenda, voluptas totam ipsum qui beatae
-              ut laboriosam similique odio earum harum? Dolorem, quo voluptates. Non neque
-              enim quisquam facilis iure ex ad architecto cumque. Recusandae, iusto amet.
-              Incidunt blanditiis assumenda voluptates non explicabo praesentium? , at
-              ratione consequatur eius hic eaque! Ab magni exercitationem temporibus.
+              Chez MB Design, nous sommes passionnés par la création de meubles uniques
+              qui reflètent l'individualité de nos clients. Forts d'une expertise solide
+              dans la conception sur mesure, nous mettons en œuvre qualité et innovation
+              dans chaque projet. Notre équipe qualifiée collabore étroitement avec nos
+              clients pour concrétiser leurs visions, en créant des solutions inspirantes
+              et durables. De la conception à la réalisation, nous maintenons des
+              standards d'excellence élevés, garantissant la qualité et l'attention aux
+              détails. Nous nous engageons envers la satisfaction client, la durabilité et
+              l'éthique, en construisant des relations durables basées sur notre passion
+              pour un design exceptionnel.
             </p>
           </div>
         </div>

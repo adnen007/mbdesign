@@ -23,7 +23,7 @@ const FeaturedProducts = () => {
   return (
     <Wrapper>
       <div className="title">
-        <h2>featured products</h2>
+        <h2>Meilleurs Produits</h2>
       </div>
       <div className="container">
         {featured_products.map((product) => {
@@ -31,7 +31,7 @@ const FeaturedProducts = () => {
         })}
       </div>
       <div className="all_products btn">
-        <Link to="/products">all products</Link>
+        <Link to="/products">Tous les Produits</Link>
       </div>
     </Wrapper>
   );

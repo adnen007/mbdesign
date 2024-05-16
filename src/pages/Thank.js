@@ -5,14 +5,14 @@ const Thank = () => {
   return (
     <Wrapper>
       <div className="container">
-        <h2> Thank you for choosing us!</h2>
+        <h2> Merci de votre choix !</h2>
         <p>
-          Our dedicated team will promptly review your request and be in touch shortly to
-          confirm the details. Should you have any questions or require further
-          assistance, please feel free to reach out. We're here to assist you every step
-          of the way!{" "}
+          Notre équipe dévouée examinera rapidement votre demande et vous contactera sous
+          peu pour confirmer les détails. Si vous avez des questions ou avez besoin d'une
+          assistance supplémentaire, n'hésitez pas à nous contacter. Nous sommes là pour
+          vous aider à chaque étape !
         </p>
-        <Link to="/">Back Home</Link>
+        <Link to="/">Retour à la page d'accueil</Link>
       </div>
     </Wrapper>
   );

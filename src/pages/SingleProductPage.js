@@ -21,6 +21,7 @@ const SingleProductPage = () => {
 
   useEffect(() => {
     if (!products.length) {
+      console.log(url, "URL");
       fetchProducts(url);
     }
   }, []);
@@ -49,7 +50,7 @@ const SingleProductPage = () => {
 
       <div className="container">
         <Link className="btn" to="/products">
-          back to products
+          Retour aux Produits
         </Link>
         <div className="content">
           <div className="image_section">
@@ -58,7 +59,7 @@ const SingleProductPage = () => {
           <div className="info_section">
             <h2 className="name">{singleProduct.name}</h2>
 
-            <div className="price">${singleProduct.price / 100}</div>
+            <div className="price">{Math.round(singleProduct.price / 100)}dt </div>
             <div className="description"> {singleProduct.description} </div>
             <div className="state">
               <p>

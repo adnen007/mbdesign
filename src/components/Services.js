@@ -7,10 +7,11 @@ const Services = () => {
     <Wrapper>
       <div className="container">
         <div className="intro">
-          <h2>custom furniture built only for you</h2>
+          <h2>Meubles Personnalisés Fabriqués</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe dolorum debitis
-            consectetur reprehenderit non aliquam voluptates dolore aut vero consequuntur.
+            Pensés pour vous, nos meubles sur mesure incarnent l'alliance parfaite entre
+            qualité et personnalisation. Avec une attention méticuleuse aux détails,
+            chaque pièce est façonnée pour s'harmoniser avec votre style de vie unique.
           </p>
         </div>
         <div className="services">

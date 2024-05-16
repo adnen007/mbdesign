@@ -16,10 +16,10 @@ const CartItem = ({ product: { id, name, image, price, color, amount, stock } })
           <div className="color">
             color: <span style={{ backgroundColor: color }}></span>
           </div>
-          <p>${price / 100}</p>
+          <p>{price / 100}dt</p>
         </div>
       </div>
-      <div className="price">${price / 100}</div>
+      <div className="price">{price / 100}dt</div>
       <div className="quantity">
         <AmountButtons
           amount={amount}

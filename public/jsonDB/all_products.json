@@ -1,745 +1,357 @@
 [
   {
-    "id": "recZkNf2kwmdBcqd0",
-    "name": "accent chair",
-    "price": 25999,
-    "image": "https://www.course-api.com/images/store/product-1.jpeg",
-    "colors": ["#ff0000", "#00ff00", "#0000ff"],
-    "company": "marcos",
-    "description": "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic chillwave trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge",
-    "category": "office",
-    "shipping": true,
-    "images": [
-      {
-        "url": "https://www.course-api.com/images/store/product-1.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/product-1.jpeg"
-      },
-      {
-        "url": "https://www.course-api.com/images/store/extra-product-1.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-1.jpeg"
-      },
-      {
-        "url": "https://www.course-api.com/images/store/extra-product-2.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-2.jpeg"
-      },
-      {
-        "url": "https://www.course-api.com/images/store/extra-product-3.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-3.jpeg"
-      },
-      {
-        "url": "https://www.course-api.com/images/store/extra-product-4.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-4.jpeg"
-      }
-    ],
-    "stock": 3
-  },
-  {
-    "id": "recEHmzvupvT8ZONH",
-    "name": "albany sectional",
-    "price": 109999,
-    "image": "https://www.course-api.com/images/store/product-2.jpeg",
-    "colors": ["#000", "#ffb900"],
-    "company": "liddy",
-    "description": "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic chillwave trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge",
-    "category": "living room",
-    "images": [
-      {
-        "url": "https://www.course-api.com/images/store/product-1.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/product-1.jpeg"
-      },
-      {
-        "url": "https://www.course-api.com/images/store/extra-product-1.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-1.jpeg"
-      },
-      {
-        "url": "https://www.course-api.com/images/store/extra-product-2.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-2.jpeg"
-      },
-      {
-        "url": "https://www.course-api.com/images/store/extra-product-3.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-3.jpeg"
-      },
-      {
-        "url": "https://www.course-api.com/images/store/extra-product-4.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-4.jpeg"
-      }
-    ],
-    "stock": 3
-  },
-  {
-    "id": "rec5NBwZ5zCD9nfF0",
-    "name": "albany table",
-    "price": 309999,
-    "image": "https://www.course-api.com/images/store/product-3.jpeg",
-    "colors": ["#ffb900", "#0000ff"],
-    "company": "liddy",
-    "description": "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic chillwave trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge",
-    "category": "kitchen",
-    "images": [
-      {
-        "url": "https://www.course-api.com/images/store/product-1.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/product-1.jpeg"
-      },
-      {
-        "url": "https://www.course-api.com/images/store/extra-product-1.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-1.jpeg"
-      },
-      {
-        "url": "https://www.course-api.com/images/store/extra-product-2.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-2.jpeg"
-      },
-      {
-        "url": "https://www.course-api.com/images/store/extra-product-3.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-3.jpeg"
-      },
-      {
-        "url": "https://www.course-api.com/images/store/extra-product-4.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-4.jpeg"
-      }
-    ],
-    "stock": 3
-  },
-  {
-    "id": "recd1jIVIEChmiwhe",
-    "name": "armchair",
-    "price": 12599,
-    "image": "https://www.course-api.com/images/store/product-4.jpeg",
-    "colors": ["#000", "#00ff00", "#0000ff"],
-    "company": "marcos",
-    "description": "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic chillwave trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge",
-    "category": "bedroom",
-    "shipping": true,
-    "images": [
-      {
-        "url": "https://www.course-api.com/images/store/product-1.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/product-1.jpeg"
-      },
-      {
-        "url": "https://www.course-api.com/images/store/extra-product-1.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-1.jpeg"
-      },
-      {
-        "url": "https://www.course-api.com/images/store/extra-product-2.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-2.jpeg"
-      },
-      {
-        "url": "https://www.course-api.com/images/store/extra-product-3.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-3.jpeg"
-      },
-      {
-        "url": "https://www.course-api.com/images/store/extra-product-4.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-4.jpeg"
-      }
-    ],
-    "stock": 3
-  },
-  {
     "id": "recotY5Nh00DQFdkm",
-    "name": "dining table",
-    "price": 42999,
-    "image": "https://www.course-api.com/images/store/product-5.jpeg",
+    "name": "Ensemble d'Armoires en Bois",
+    "price": 210000,
+    "image": "../productsImages/p5/p5image1.jpg",
     "colors": ["#00ff00", "#0000ff", "#ff0000"],
     "company": "ikea",
-    "description": "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic chillwave trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge",
-    "category": "dining",
+    "description": "Sublimez le charme de votre cuisine avec notre collection exquise d'armoires en bois. Fabriquées à partir de bois de haute qualité, chaque armoire respire l'élégance intemporelle et la durabilité. Organisez vos essentiels de cuisine sans effort avec des étagères ajustables et des tiroirs spacieux, tandis que les riches finitions en bois ajoutent chaleur et sophistication à votre espace. Transformez votre cuisine en un havre de style avec notre ensemble premium d'armoires en bois.",
+    "category": "Cuisine",
+    "featured": true,
     "shipping": true,
     "images": [
       {
-        "url": "https://www.course-api.com/images/store/product-1.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/product-1.jpeg"
+        "url": "../productsImages/p5/p5image1.jpg",
+        "smallUrl": "../productsImages/p5/p5image1.jpg"
       },
       {
-        "url": "https://www.course-api.com/images/store/extra-product-1.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-1.jpeg"
+        "url": "../productsImages/p5/p5image2.jpg",
+        "smallUrl": "../productsImages/p5/p5image1.jpg"
       },
       {
-        "url": "https://www.course-api.com/images/store/extra-product-2.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-2.jpeg"
+        "url": "../productsImages/p5/p5image3.jpg",
+        "smallUrl": "../productsImages/p5/p5image1.jpg"
       },
       {
-        "url": "https://www.course-api.com/images/store/extra-product-3.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-3.jpeg"
-      },
-      {
-        "url": "https://www.course-api.com/images/store/extra-product-4.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-4.jpeg"
+        "url": "../productsImages/p5/p5image4.jpg",
+        "smallUrl": "../productsImages/p5/p5image1.jpg"
       }
     ],
     "stock": 3
   },
   {
     "id": "rec1Ntk7siEEW9ha1",
-    "name": "emperor bed",
-    "price": 23999,
-    "image": "https://www.course-api.com/images/store/product-6.jpeg",
+    "name": "Collection Élégance Bois",
+    "price": 240000,
+    "image": "../productsImages/p6/p6image1.jpg",
     "colors": ["#0000ff", "#000"],
     "company": "ikea",
-    "description": "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic chillwave trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge",
-    "category": "bedroom",
+    "description": "Sublimez le charme de votre cuisine avec notre collection exquise d'armoires en bois. Fabriquées à partir de bois de haute qualité, chaque armoire respire l'élégance intemporelle et la durabilité. Organisez vos essentiels de cuisine sans effort avec des étagères ajustables et des tiroirs spacieux, tandis que les riches finitions en bois ajoutent chaleur et sophistication à votre espace. Transformez votre cuisine en un havre de style avec notre ensemble premium d'armoires en bois.",
+    "category": "Cuisine",
     "shipping": true,
     "images": [
       {
-        "url": "https://www.course-api.com/images/store/product-1.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/product-1.jpeg"
+        "url": "../productsImages/p6/p6image1.jpg",
+        "smallUrl": "../productsImages/p6/p6image1.jpg"
       },
       {
-        "url": "https://www.course-api.com/images/store/extra-product-1.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-1.jpeg"
+        "url": "../productsImages/p6/p6image2.jpg",
+        "smallUrl": "../productsImages/p6/p6image1.jpg"
       },
       {
-        "url": "https://www.course-api.com/images/store/extra-product-2.jpeg",
+        "url": "../productsImages/p6/p6image3.jpg",
         "smallUrl": "https://www.course-api.com/images/store/extra-product-2.jpeg"
       },
       {
-        "url": "https://www.course-api.com/images/store/extra-product-3.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-3.jpeg"
+        "url": "../productsImages/p6/p6image4.jpg",
+        "smallUrl": "../productsImages/p6/p6image1.jpg"
       },
       {
-        "url": "https://www.course-api.com/images/store/extra-product-4.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-4.jpeg"
+        "url": "../productsImages/p6/p6image5.jpg",
+        "smallUrl": "../productsImages/p6/p6image1.jpg"
       }
     ],
-    "stock": 3
+    "stock": 9
   },
   {
     "id": "recNZ0koOqEmilmoz",
-    "name": "entertainment center",
-    "price": 59999,
-    "image": "https://www.course-api.com/images/store/product-7.jpeg",
-    "featured": true,
+    "name": "Éclat de Cuisine",
+    "price": 190000,
+    "image": "../productsImages/p7/p7image1.jpg",
     "colors": ["#000", "#ff0000"],
     "company": "caressa",
-    "description": "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic chillwave trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge",
-    "category": "living room",
+    "description": "Sublimez le charme de votre cuisine avec notre collection exquise d'armoires en bois. Fabriquées à partir de bois de haute qualité, chaque armoire respire l'élégance intemporelle et la durabilité. Organisez vos essentiels de cuisine sans effort avec des étagères ajustables et des tiroirs spacieux, tandis que les riches finitions en bois ajoutent chaleur et sophistication à votre espace. Transformez votre cuisine en un havre de style avec notre ensemble premium d'armoires en bois.",
+    "category": "Cuisine",
     "shipping": true,
     "images": [
       {
-        "url": "https://www.course-api.com/images/store/product-1.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/product-1.jpeg"
+        "url": "../productsImages/p7/p7image1.jpg",
+        "smallUrl": "../productsImages/p7/p7image1.jpg"
       },
       {
-        "url": "https://www.course-api.com/images/store/extra-product-1.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-1.jpeg"
+        "url": "../productsImages/p7/p7image2.jpg",
+        "smallUrl": "../productsImages/p7/p7image1.jpg"
       },
       {
-        "url": "https://www.course-api.com/images/store/extra-product-2.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-2.jpeg"
+        "url": "../productsImages/p7/p7image3.jpg",
+        "smallUrl": "../productsImages/p7/p7image1.jpg"
       },
       {
-        "url": "https://www.course-api.com/images/store/extra-product-3.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-3.jpeg"
+        "url": "../productsImages/p7/p7image4.jpg",
+        "smallUrl": "../productsImages/p7/p7image1.jpg"
       },
       {
-        "url": "https://www.course-api.com/images/store/extra-product-4.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-4.jpeg"
+        "url": "../productsImages/p7/p7image5.jpg",
+        "smallUrl": "../productsImages/p7/p7image1.jpg"
       }
     ],
     "stock": 3
   },
   {
     "id": "recrfxv3EwpvJwvjq",
-    "name": "high-back bench",
-    "price": 39999,
-    "image": "https://www.course-api.com/images/store/product-8.jpeg",
-    "featured": true,
+    "name": "Canapé",
+    "price": 110000,
+    "image": "../productsImages/p8/p8image1.jpg",
     "colors": ["#000", "#00ff00"],
     "company": "ikea",
-    "description": "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic chillwave trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge",
-    "category": "office",
+    "description": "Transformez votre espace de vie avec notre canapé polyvalent qui se convertit facilement en un lit confortable, offrant à la fois style et fonctionnalité. Disponible en cinq couleurs éblouissantes, ce canapé-lit hybride se fond harmonieusement dans tout schéma de décoration tout en offrant la solution parfaite pour recevoir des invités ou se détendre chez vous. Améliorez votre salon avec ce meuble polyvalent qui apporte à la fois praticité et élégance à votre espace.",
+    "category": "salon",
+    "featured": true,
     "shipping": true,
     "images": [
       {
-        "url": "https://www.course-api.com/images/store/product-1.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/product-1.jpeg"
+        "url": "../productsImages/p8/p8image1.jpg",
+        "smallUrl": "../productsImages/p8/p8image1.jpg"
       },
       {
-        "url": "https://www.course-api.com/images/store/extra-product-1.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-1.jpeg"
+        "url": "../productsImages/p8/p8image2.jpg",
+        "smallUrl": "../productsImages/p8/p8image1.jpg"
       },
       {
-        "url": "https://www.course-api.com/images/store/extra-product-2.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-2.jpeg"
+        "url": "../productsImages/p8/p8image3.jpg",
+        "smallUrl": "../productsImages/p8/p8image1.jpg"
       },
       {
-        "url": "https://www.course-api.com/images/store/extra-product-3.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-3.jpeg"
+        "url": "../productsImages/p8/p8image4.jpg",
+        "smallUrl": "../productsImages/p8/p8image1.jpg"
       },
       {
-        "url": "https://www.course-api.com/images/store/extra-product-4.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-4.jpeg"
+        "url": "../productsImages/p8/p8image5.jpg",
+        "smallUrl": "../productsImages/p8/p8image1.jpg"
       }
     ],
     "stock": 3
   },
   {
     "id": "recoW8ecgjtKx2Sj2",
-    "name": "leather chair",
-    "price": 20099,
-    "image": "https://www.course-api.com/images/store/product-9.jpeg",
-    "colors": ["#ff0000", "#ffb900", "#00ff00"],
+    "name": "Canapé droit relax",
+    "price": 120000,
+    "image": "../productsImages/p9/p9image1.jpg",
+    "colors": ["#ff0000", "#0000ff"],
     "company": "caressa",
-    "description": "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic chillwave trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge",
-    "category": "bedroom",
+    "description": "Transformez votre espace de vie avec notre canapé polyvalent qui se convertit facilement en un lit confortable, offrant à la fois style et fonctionnalité. Disponible en cinq couleurs éblouissantes, ce canapé-lit hybride se fond harmonieusement dans tout schéma de décoration tout en offrant la solution parfaite pour recevoir des invités ou se détendre chez vous. Améliorez votre salon avec ce meuble polyvalent qui apporte à la fois praticité et élégance à votre espace.",
+    "category": "salon",
+    "featured": true,
     "images": [
       {
-        "url": "https://www.course-api.com/images/store/product-1.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/product-1.jpeg"
+        "url": "../productsImages/p9/p9image1.jpg",
+        "smallUrl": "../productsImages/p9/p9image1.jpg"
       },
       {
-        "url": "https://www.course-api.com/images/store/extra-product-1.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-1.jpeg"
+        "url": "../productsImages/p9/p9image2.jpg",
+        "smallUrl": "../productsImages/p9/p9image1.jpg"
       },
       {
-        "url": "https://www.course-api.com/images/store/extra-product-2.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-2.jpeg"
+        "url": "../productsImages/p9/p9image3.jpg",
+        "smallUrl": "../productsImages/p9/p9image1.jpg"
       },
       {
-        "url": "https://www.course-api.com/images/store/extra-product-3.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-3.jpeg"
+        "url": "../productsImages/p9/p9image4.jpg",
+        "smallUrl": "../productsImages/p9/p9image1.jpg"
       },
       {
-        "url": "https://www.course-api.com/images/store/extra-product-4.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-4.jpeg"
+        "url": "../productsImages/p9/p9image5.jpg",
+        "smallUrl": "../productsImages/p9/p9image1.jpg"
       }
     ],
     "stock": 3
   },
   {
     "id": "recEOA6qtDag1hRbU",
-    "name": "leather sofa",
-    "price": 99999,
-    "image": "https://www.course-api.com/images/store/product-10.jpeg",
-    "colors": ["#00ff00", "#0000ff"],
+    "name": "Le Royaume du Repos",
+    "price": 75000,
+    "image": "../productsImages/p10/p10image1.jpg",
+    "colors": ["#eee"],
     "company": "caressa",
-    "description": "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic chillwave trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge",
-    "category": "office",
+    "description": "Découvrez notre lit enfant féérique, conçu pour stimuler l'imagination et garantir des nuits paisibles. Fabriqué avec la sécurité et le confort à l'esprit, ce lit présente une construction robuste et des designs vibrants, adaptés aux enfants. Transformez la chambre de votre enfant en un havre de créativité et de détente avec notre enchanteur lit enfant.",
+    "category": "enfants",
     "images": [
       {
-        "url": "https://www.course-api.com/images/store/product-1.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/product-1.jpeg"
-      },
-      {
-        "url": "https://www.course-api.com/images/store/extra-product-1.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-1.jpeg"
-      },
-      {
-        "url": "https://www.course-api.com/images/store/extra-product-2.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-2.jpeg"
-      },
-      {
-        "url": "https://www.course-api.com/images/store/extra-product-3.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-3.jpeg"
-      },
-      {
-        "url": "https://www.course-api.com/images/store/extra-product-4.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-4.jpeg"
+        "url": "../productsImages/p10/p10image1.jpg",
+        "smallUrl": "../productsImages/p10/p10image1.jpg"
       }
     ],
     "stock": 3
   },
   {
     "id": "recoAJYUCuEKxcPSr",
-    "name": "modern bookshelf",
-    "price": 31999,
-    "image": "https://www.course-api.com/images/store/product-11.jpeg",
-    "featured": true,
-    "colors": ["#ffb900", "#ff0000", "#00ff00"],
+    "name": "Lit Enchanté",
+    "price": 70000,
+    "image": "../productsImages/p11/p11image1.jpg",
+    "colors": ["#000"],
     "company": "caressa",
-    "description": "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic chillwave trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge",
-    "category": "kids",
+    "description": "Découvrez notre lit enfant féérique, conçu pour stimuler l'imagination et garantir des nuits paisibles. Fabriqué avec la sécurité et le confort à l'esprit, ce lit présente une construction robuste et des designs vibrants, adaptés aux enfants. Transformez la chambre de votre enfant en un havre de créativité et de détente avec notre enchanteur lit enfant.",
+    "category": "enfants",
     "images": [
       {
-        "url": "https://www.course-api.com/images/store/product-1.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/product-1.jpeg"
-      },
-      {
-        "url": "https://www.course-api.com/images/store/extra-product-1.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-1.jpeg"
-      },
-      {
-        "url": "https://www.course-api.com/images/store/extra-product-2.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-2.jpeg"
-      },
-      {
-        "url": "https://www.course-api.com/images/store/extra-product-3.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-3.jpeg"
-      },
-      {
-        "url": "https://www.course-api.com/images/store/extra-product-4.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-4.jpeg"
+        "url": "../productsImages/p11/p11image1.jpg",
+        "smallUrl": "../productsImages/p11/p11image1.jpg"
       }
     ],
     "stock": 3
   },
   {
     "id": "recQ0fMd8T0Vk211E",
-    "name": "modern poster",
-    "price": 3099,
-    "image": "https://www.course-api.com/images/store/product-12.jpeg",
-    "colors": ["#000"],
+    "name": "Eliana",
+    "price": 30000,
+    "image": "../productsImages/p12/p12image1.jpg",
+    "colors": ["#eee"],
     "company": "liddy",
-    "description": "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic chillwave trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge",
-    "category": "living room",
+    "description": "Permettez-nous de vous présenter notre magnifique table ronde fabriquée en bois de haute qualité, conçue pour accueillir confortablement cinq personnes. Cette pièce élégante dégage un charme intemporel et une durabilité remarquable, en faisant un élément central parfait pour toute salle à manger ou espace de réception. Avec son artisanat impeccable et sa construction robuste, cette table non seulement rehausse l'esthétique de votre maison, mais assure également un plaisir durable pendant des années à venir. Sublimez votre expérience culinaire avec cet ajout sophistiqué et polyvalent à votre collection de mobilier.",
+    "category": "Cuisine",
     "shipping": true,
     "images": [
       {
-        "url": "https://www.course-api.com/images/store/product-1.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/product-1.jpeg"
+        "url": "../productsImages/p12/p12image1.jpg",
+        "smallUrl": "../productsImages/p11/p11image1.jpg"
       },
       {
-        "url": "https://www.course-api.com/images/store/extra-product-1.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-1.jpeg"
-      },
-      {
-        "url": "https://www.course-api.com/images/store/extra-product-2.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-2.jpeg"
-      },
-      {
-        "url": "https://www.course-api.com/images/store/extra-product-3.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-3.jpeg"
-      },
-      {
-        "url": "https://www.course-api.com/images/store/extra-product-4.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-4.jpeg"
+        "url": "../productsImages/p12/p12image2.jpg",
+        "smallUrl": "../productsImages/p11/p11image2.jpg"
       }
     ],
-    "stock": 3
+    "stock": 14
   },
   {
-    "id": "rec7CjDWKRgNQtrKe",
-    "name": "shelf",
-    "price": 30999,
-    "image": "https://www.course-api.com/images/store/product-13.jpeg",
-    "colors": ["#00ff00"],
-    "company": "ikea",
-    "description": "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic chillwave trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge",
-    "category": "living room",
-    "images": [
-      {
-        "url": "https://www.course-api.com/images/store/product-1.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/product-1.jpeg"
-      },
-      {
-        "url": "https://www.course-api.com/images/store/extra-product-1.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-1.jpeg"
-      },
-      {
-        "url": "https://www.course-api.com/images/store/extra-product-2.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-2.jpeg"
-      },
-      {
-        "url": "https://www.course-api.com/images/store/extra-product-3.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-3.jpeg"
-      },
-      {
-        "url": "https://www.course-api.com/images/store/extra-product-4.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-4.jpeg"
-      }
-    ],
-    "stock": 3
-  },
-  {
-    "id": "recF0KpwlkF7e8kXO",
-    "name": "simple chair",
-    "price": 109999,
-    "image": "https://www.course-api.com/images/store/product-14.jpeg",
-    "colors": ["#0000ff"],
-    "company": "liddy",
-    "description": "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic chillwave trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge",
-    "category": "living room",
-    "shipping": true,
-    "images": [
-      {
-        "url": "https://www.course-api.com/images/store/product-1.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/product-1.jpeg"
-      },
-      {
-        "url": "https://www.course-api.com/images/store/extra-product-1.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-1.jpeg"
-      },
-      {
-        "url": "https://www.course-api.com/images/store/extra-product-2.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-2.jpeg"
-      },
-      {
-        "url": "https://www.course-api.com/images/store/extra-product-3.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-3.jpeg"
-      },
-      {
-        "url": "https://www.course-api.com/images/store/extra-product-4.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-4.jpeg"
-      }
-    ],
-    "stock": 3
-  },
-  {
-    "id": "recs5BSVU3qQrOj4E",
-    "name": "sofa set",
-    "price": 129999,
-    "image": "https://www.course-api.com/images/store/product-15.jpeg",
-    "colors": ["#00ff00", "#ffb900"],
+    "id": "recZkNf2kwmdBcqd0",
+    "name": "arko",
+    "price": 280000,
+    "image": "../productsImages/p1/p1image1.jpg",
+    "colors": ["#ff0000", "#00ff00", "#0000ff"],
     "company": "marcos",
-    "description": "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic chillwave trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge",
-    "category": "living room",
+    "description": "Bienvenue dans votre chambre à coucher de rêve, équipée de deux élégantes tables de chevet et d'un espace de rangement généreux pour vos vêtements essentiels. Notre espace soigneusement aménagé allie fonctionnalité et style, offrant un havre de paix confortable pour la détente. Chaque table de chevet offre le parfait appui pour vos lectures nocturnes ou un verre d'eau, tandis que les compartiments de rangement spacieux assurent une organisation facile de vos affaires. Au centre de la pièce se trouve notre lit luxueux, vous invitant à vous plonger dans son confort après une longue journée. Découvrez l'équilibre parfait entre confort et sophistication dans cette chambre à coucher pensée dans les moindres détails.",
+    "category": "chambre",
+    "featured": true,
     "shipping": true,
     "images": [
       {
-        "url": "https://www.course-api.com/images/store/product-1.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/product-1.jpeg"
+        "url": "../productsImages/p1/p1image1.jpg",
+        "smallUrl": "../productsImages/p1/p1image1.jpg"
       },
       {
-        "url": "https://www.course-api.com/images/store/extra-product-1.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-1.jpeg"
+        "url": "../productsImages/p1/p1image2.jpg",
+        "smallUrl": "../productsImages/p1/p1image1.jpg"
       },
       {
-        "url": "https://www.course-api.com/images/store/extra-product-2.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-2.jpeg"
+        "url": "../productsImages/p1/p1image3.jpg",
+        "smallUrl": "../productsImages/p1/p1image1.jpg"
       },
       {
-        "url": "https://www.course-api.com/images/store/extra-product-3.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-3.jpeg"
-      },
-      {
-        "url": "https://www.course-api.com/images/store/extra-product-4.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-4.jpeg"
+        "url": "../productsImages/p1/p1image4.jpg",
+        "smallUrl": "../productsImages/p1/p1image1.jpg"
       }
     ],
     "stock": 3
   },
   {
-    "id": "recroK1VD8qVdMP5H",
-    "name": "suede armchair",
-    "price": 15999,
-    "image": "https://www.course-api.com/images/store/product-16.jpeg",
-    "colors": ["#ffb900"],
-    "company": "caressa",
-    "description": "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic chillwave trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge",
-    "category": "office",
-    "images": [
-      {
-        "url": "https://www.course-api.com/images/store/product-1.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/product-1.jpeg"
-      },
-      {
-        "url": "https://www.course-api.com/images/store/extra-product-1.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-1.jpeg"
-      },
-      {
-        "url": "https://www.course-api.com/images/store/extra-product-2.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-2.jpeg"
-      },
-      {
-        "url": "https://www.course-api.com/images/store/extra-product-3.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-3.jpeg"
-      },
-      {
-        "url": "https://www.course-api.com/images/store/extra-product-4.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-4.jpeg"
-      }
-    ],
-    "stock": 3
-  },
-  {
-    "id": "rec7JInsuCEHgmaGe",
-    "name": "utopia sofa",
-    "price": 79999,
-    "image": "https://www.course-api.com/images/store/product-17.jpeg",
-    "featured": true,
-    "colors": ["#ff0000", "#00ff00"],
-    "company": "liddy",
-    "description": "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic chillwave trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge",
-    "category": "living room",
-    "images": [
-      {
-        "url": "https://www.course-api.com/images/store/product-1.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/product-1.jpeg"
-      },
-      {
-        "url": "https://www.course-api.com/images/store/extra-product-1.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-1.jpeg"
-      },
-      {
-        "url": "https://www.course-api.com/images/store/extra-product-2.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-2.jpeg"
-      },
-      {
-        "url": "https://www.course-api.com/images/store/extra-product-3.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-3.jpeg"
-      },
-      {
-        "url": "https://www.course-api.com/images/store/extra-product-4.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-4.jpeg"
-      }
-    ],
-    "stock": 3
-  },
-  {
-    "id": "rec3jeKnhInKHJuz2",
-    "name": "vase table",
-    "price": 120999,
-    "image": "https://www.course-api.com/images/store/product-18.jpeg",
-    "featured": true,
-    "colors": ["#ff0000"],
-    "company": "marcos",
-    "description": "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic chillwave trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge",
-    "category": "office",
-    "images": [
-      {
-        "url": "https://www.course-api.com/images/store/product-1.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/product-1.jpeg"
-      },
-      {
-        "url": "https://www.course-api.com/images/store/extra-product-1.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-1.jpeg"
-      },
-      {
-        "url": "https://www.course-api.com/images/store/extra-product-2.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-2.jpeg"
-      },
-      {
-        "url": "https://www.course-api.com/images/store/extra-product-3.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-3.jpeg"
-      },
-      {
-        "url": "https://www.course-api.com/images/store/extra-product-4.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-4.jpeg"
-      }
-    ],
-    "stock": 3
-  },
-  {
-    "id": "recv2ohxljlK2FZO7",
-    "name": "wooden bed",
-    "price": 250099,
-    "image": "https://www.course-api.com/images/store/product-19.jpeg",
+    "id": "recEHmzvupvT8ZONH",
+    "name": "kro",
+    "price": 220000,
+    "image": "../productsImages/p2/p2image1.jpg",
     "colors": ["#000", "#ffb900"],
-    "company": "ikea",
-    "description": "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic chillwave trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge",
-    "category": "bedroom",
-    "images": [
-      {
-        "url": "https://www.course-api.com/images/store/product-1.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/product-1.jpeg"
-      },
-      {
-        "url": "https://www.course-api.com/images/store/extra-product-1.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-1.jpeg"
-      },
-      {
-        "url": "https://www.course-api.com/images/store/extra-product-2.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-2.jpeg"
-      },
-      {
-        "url": "https://www.course-api.com/images/store/extra-product-3.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-3.jpeg"
-      },
-      {
-        "url": "https://www.course-api.com/images/store/extra-product-4.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-4.jpeg"
-      }
-    ],
-    "stock": 3
-  },
-  {
-    "id": "recJIjREF3dlFi3sR",
-    "name": "wooden desk",
-    "price": 150999,
-    "image": "https://www.course-api.com/images/store/product-20.jpeg",
-    "colors": ["#000"],
-    "company": "ikea",
-    "description": "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic chillwave trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge",
-    "category": "office",
-    "shipping": true,
-    "images": [
-      {
-        "url": "https://www.course-api.com/images/store/product-1.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/product-1.jpeg"
-      },
-      {
-        "url": "https://www.course-api.com/images/store/extra-product-1.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-1.jpeg"
-      },
-      {
-        "url": "https://www.course-api.com/images/store/extra-product-2.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-2.jpeg"
-      },
-      {
-        "url": "https://www.course-api.com/images/store/extra-product-3.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-3.jpeg"
-      },
-      {
-        "url": "https://www.course-api.com/images/store/extra-product-4.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-4.jpeg"
-      }
-    ],
-    "stock": 3
-  },
-  {
-    "id": "recm7wC8TBVdU9oEL",
-    "name": "wooden desk",
-    "price": 40099,
-    "image": "https://www.course-api.com/images/store/product-21.jpeg",
-    "colors": ["#0000ff", "#00ff00"],
-    "company": "ikea",
-    "description": "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic chillwave trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge",
-    "category": "office",
-    "images": [
-      {
-        "url": "https://www.course-api.com/images/store/product-1.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/product-1.jpeg"
-      },
-      {
-        "url": "https://www.course-api.com/images/store/extra-product-1.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-1.jpeg"
-      },
-      {
-        "url": "https://www.course-api.com/images/store/extra-product-2.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-2.jpeg"
-      },
-      {
-        "url": "https://www.course-api.com/images/store/extra-product-3.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-3.jpeg"
-      },
-      {
-        "url": "https://www.course-api.com/images/store/extra-product-4.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-4.jpeg"
-      }
-    ],
-    "stock": 3
-  },
-  {
-    "id": "rectfNsySwAJeWDN2",
-    "name": "wooden table",
-    "price": 234999,
-    "image": "https://www.course-api.com/images/store/product-22.jpeg",
+    "company": "liddy",
+    "description": "Bienvenue dans votre chambre à coucher de rêve, équipée de deux élégantes tables de chevet et d'un espace de rangement généreux pour vos vêtements essentiels. Notre espace soigneusement aménagé allie fonctionnalité et style, offrant un havre de paix confortable pour la détente. Chaque table de chevet offre le parfait appui pour vos lectures nocturnes ou un verre d'eau, tandis que les compartiments de rangement spacieux assurent une organisation facile de vos affaires. Au centre de la pièce se trouve notre lit luxueux, vous invitant à vous plonger dans son confort après une longue journée. Découvrez l'équilibre parfait entre confort et sophistication dans cette chambre à coucher pensée dans les moindres détails.",
+    "category": "chambre",
     "featured": true,
-    "colors": ["#ffb900", "#ff0000"],
-    "company": "caressa",
-    "description": "Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic chillwave trust fund. Viral typewriter fingerstache pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing gochujang live-edge",
-    "category": "kitchen",
-    "shipping": true,
+
     "images": [
       {
-        "url": "https://www.course-api.com/images/store/product-1.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/product-1.jpeg"
+        "url": "../productsImages/p2/p2image1.jpg",
+        "smallUrl": "../productsImages/p2/p2image1.jpg"
       },
       {
-        "url": "https://www.course-api.com/images/store/extra-product-1.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-1.jpeg"
+        "url": "../productsImages/p2/p2image2.jpg",
+        "smallUrl": "../productsImages/p2/p2image1.jpg"
       },
       {
-        "url": "https://www.course-api.com/images/store/extra-product-2.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-2.jpeg"
+        "url": "../productsImages/p2/p2image3.jpg",
+        "smallUrl": "../productsImages/p2/p2image1.jpg"
       },
       {
-        "url": "https://www.course-api.com/images/store/extra-product-3.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-3.jpeg"
+        "url": "../productsImages/p2/p2image4.jpg",
+        "smallUrl": "../productsImages/p2/p2image1.jpg"
       },
       {
-        "url": "https://www.course-api.com/images/store/extra-product-4.jpeg",
-        "smallUrl": "https://www.course-api.com/images/store/extra-product-4.jpeg"
+        "url": "../productsImages/p2/p2image5.jpg",
+        "smallUrl": "../productsImages/p2/p2image1.jpg"
       }
     ],
     "stock": 3
+  },
+  {
+    "id": "rec5NBwZ5zCD9nfF0",
+    "name": "Armoires de Cuisine",
+    "price": 300000,
+    "image": "../productsImages/p3/p3image1.jpg",
+    "colors": ["#eee", "#0000ff"],
+    "company": "liddy",
+    "description": "Sublimez le charme de votre cuisine avec notre collection exquise d'armoires en bois. Fabriquées à partir de bois de haute qualité, chaque armoire respire l'élégance intemporelle et la durabilité. Organisez vos essentiels de cuisine sans effort avec des étagères ajustables et des tiroirs spacieux, tandis que les riches finitions en bois ajoutent chaleur et sophistication à votre espace. Transformez votre cuisine en un havre de style avec notre ensemble premium d'armoires en bois.",
+    "category": "Cuisine",
+    "featured": true,
+
+    "images": [
+      {
+        "url": "../productsImages/p3/p3image1.jpg",
+        "smallUrl": "../productsImages/p3/p3image1.jpg"
+      },
+      {
+        "url": "../productsImages/p3/p3image2.jpg",
+        "smallUrl": "../productsImages/p3/p3image1.jpg"
+      },
+      {
+        "url": "../productsImages/p3/p3image3.jpg",
+        "smallUrl": "../productsImages/p3/p3image1.jpg"
+      },
+      {
+        "url": "../productsImages/p3/p3image4.jpg",
+        "smallUrl": "../productsImages/p3/p3image1.jpg"
+      }
+    ],
+    "stock": 3
+  },
+  {
+    "id": "recd1jIVIEChmiwhe",
+    "name": "Luxe",
+    "price": 80000,
+    "image": "../productsImages/p4/p4image1.jpg",
+    "colors": ["#eee"],
+    "company": "marcos",
+    "description": "Découvrez notre collection sophistiquée d'armoires, minutieusement conçue pour sublimer l'ambiance de votre chambre à coucher. Fabriquées à partir de matériaux de première qualité, chaque armoire offre un espace de rangement généreux avec des étagères ajustables, des tiroirs et des tringles. Vivez une organisation sans faille tout en ajoutant une touche d'élégance à votre espace de vie avec nos designs d'armoires intemporels. Optez pour notre sélection d'armoires exquises et modernisez votre solution de rangement de chambre à coucher.",
+    "category": "chambre",
+    "shipping": true,
+    "images": [
+      {
+        "url": "../productsImages/p4/p4image1.jpg",
+        "smallUrl": "../productsImages/p4/p4image1.jpg"
+      },
+      {
+        "url": "../productsImages/p4/p4image2.jpg",
+        "smallUrl": "../productsImages/p4/p4image2.jpg"
+      },
+      {
+        "url": "../productsImages/p4/p4image3.jpg",
+        "smallUrl": "../productsImages/p4/p4image3.jpg"
+      },
+      {
+        "url": "../productsImages/p4/p4image4.jpg",
+        "smallUrl": "../productsImages/p4/p4image4.jpg"
+      },
+      {
+        "url": "../productsImages/p4/p4image5.jpg",
+        "smallUrl": "../productsImages/p4/p4image5.jpg"
+      }
+    ],
+    "stock": 6
   }
 ]

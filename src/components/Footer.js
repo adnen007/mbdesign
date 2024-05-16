@@ -11,13 +11,13 @@ const Footer = () => {
           <div className="icon">
             <BsTelephoneFill />
           </div>
-          <span> +2135463121</span>
+          <span> 50 528 510</span>
         </div>
         <div className="location">
           <div className="icon">
             <FaLocationDot />
           </div>
-          <span> Dar fathal soukra</span>
+          <span>Soukra nahej lmatar rue djbal ryhan</span>
         </div>
       </div>
       {/* <div className="rights">
@@ -48,6 +48,11 @@ const Wrapper = styled.footer`
     display: flex;
     span {
       color: white;
+    }
+    @media (max-width: 768px) {
+      span {
+        font-size: 13px;
+      }
     }
   }
   .icon {

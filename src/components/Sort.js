@@ -21,19 +21,19 @@ const Sort = () => {
           <BsList />
         </div>
       </div>
-      <p>{products.length} Products Found</p>
+      <p>{products.length} Produits Trouvés</p>
       <hr />
       <div className="sort_by">
-        <label htmlFor="sort_by">sort by</label>
+        <label htmlFor="sort_by">Classer Par </label>
         <select
           value={sort}
           onChange={(e) => updateSort(e.currentTarget.value)}
           id="sort_by"
         >
-          <option value="lowest"> {"Price (Lowest)"} </option>
-          <option value="highest">{"Price (Highest)"}</option>
-          <option value="a-z">{"Name (A - Z)"}</option>
-          <option value="z-a">{"Name (Z - A)"}</option>
+          <option value="lowest"> {"Prix (le plus bas)"} </option>
+          <option value="highest">{"Prix (le plus élevé)"}</option>
+          <option value="a-z">{"Nom (A - Z)"}</option>
+          <option value="z-a">{"Nom (Z - A)"}</option>
         </select>
       </div>
     </Wrapper>

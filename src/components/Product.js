@@ -17,7 +17,7 @@ const Product = ({ product: { price, name, image, id } }) => {
       </div>
       <div className="info">
         <div className="name">{name}</div>
-        <div className="price">${price / 100}</div>
+        <div className="price">{Math.round(price / 100)}dt</div>
       </div>
     </Wrapper>
   );

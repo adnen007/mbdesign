@@ -13,7 +13,7 @@ const CartButtons = () => {
   return (
     <Wrapper className="cart_buttons" onClick={closeSidebar}>
       <Link to="/cart" className="cart">
-        <p>Cart</p>
+        <p>Panier</p>
         <FaShoppingCart />
         <span>{totalAmount}</span>
       </Link>

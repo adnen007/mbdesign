@@ -5,16 +5,17 @@ const Contact = () => {
   return (
     <Wrapper>
       <div className="container">
-        <h3>Join our newsletter and get 20% off</h3>
+        <h3>Rejoignez notre newsletter</h3>
         <div className="content">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat sint unde
-            quaerat ratione soluta veniam provident adipisci cumque eveniet tempore?
+            Rejoignez notre newsletter et soyez les premiers à être informés de nos offres
+            exclusives. Accédez à de superbes offres avant tout le monde, parfois même un
+            jour à l'avance !
           </p>
           <form className="contact-form">
-            <input type="email" className="form-input" placeholder="enter email" />
+            <input type="email" className="form-input" placeholder="email" />
             <button type="submit" className="submit-btn">
-              subscribe
+              Rejoignez
             </button>
           </form>
         </div>

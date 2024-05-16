@@ -32,7 +32,7 @@ const AddToCart = ({ product: { colors, stock, id, name, price, images } }) => {
   return (
     <Wrapper>
       <div className="colors">
-        <p>colors:</p>
+        <p>Couleurs:</p>
         <div>
           {colors.map((item, i) => {
             return (
@@ -55,7 +55,7 @@ const AddToCart = ({ product: { colors, stock, id, name, price, images } }) => {
         id={id}
       />
       <Link to="/cart" onClick={() => addToCart(currentProduct)} className="btn">
-        ADD TO CART
+        AJOUTER AU PANIER
       </Link>
     </Wrapper>
   );

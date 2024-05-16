@@ -22,10 +22,10 @@ const CartContent = () => {
         </div>
         <div className="buttons">
           <Link to="/products" className="continue_shopping">
-            continue shopping
+            Continuer vos achats
           </Link>
           <button onClick={clearCart} className="clear_cart">
-            clear shopping cart
+            Vider le panier
           </button>
         </div>
         <div className="total">

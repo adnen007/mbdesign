@@ -13,7 +13,7 @@ const ListView = ({ filtered_products: products }) => {
             </div>
             <div className="info">
               <div className="name"> {name} </div>
-              <div className="price"> ${price / 100} </div>
+              <div className="price"> {Math.round(price / 100)}dt </div>
               <div className="description"> {description.substring(150)}... </div>
               <Link to={`/products/${id}`} className="btn">
                 Details

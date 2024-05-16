@@ -6,7 +6,7 @@ const PageHero = ({ title, product }) => {
     <Wrapper>
       <div className="container">
         <h3>
-          <Link to="/">Home</Link> /
+          <Link to="/">Accueil</Link> /
           {product ? (
             <>
               <Link to="/products">{title}</Link> / {product}

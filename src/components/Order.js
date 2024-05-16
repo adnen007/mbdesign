@@ -29,7 +29,7 @@ const Order = () => {
         <div className="close" onClick={toggleOrder}>
           <FaTimes />
         </div>
-        <h2>Place Order</h2>
+        <h2>Passer la commande</h2>
         <form action="https://api.web3forms.com/submit" method="POST">
           <input
             type="hidden"
@@ -39,10 +39,10 @@ const Order = () => {
           <input
             type="hidden"
             name="redirect"
-            value="https://mahergath.netlify.app/thank"
+            value="https://www.mbdesign.tn/thank"
           ></input>
           <div>
-            <label htmlFor="name">Name</label>
+            <label htmlFor="name">Nom</label>
             <input
               onChange={onInputChange}
               type="text"
@@ -53,7 +53,7 @@ const Order = () => {
             />
           </div>
           <div>
-            <label htmlFor="number">Number</label>
+            <label htmlFor="number">Numéro</label>
             <input
               onChange={onInputChange}
               type="tel"
@@ -80,7 +80,7 @@ const Order = () => {
           />
 
           <button onClick={onLoad} type="submit">
-            {isLoad ? load : "Send"}
+            {isLoad ? load : "Envoyer"}
           </button>
         </form>
       </div>
