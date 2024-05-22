@@ -21,14 +21,17 @@ const Thank = () => {
 export default Thank;
 
 const Wrapper = styled.div`
-  height: calc(100vh - 150px);
+  min-height: calc(100vh - 150px);
   .container {
+    padding: 50px;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
     gap: 20px;
-    height: 60%;
+    text-align: center;
     p {
       text-align: center;
       line-height: 30px;

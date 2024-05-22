@@ -39,11 +39,12 @@ export const services = [
   },
 ];
 
-export const products_url = "https://www.mbdesign.tn/jsonDB/all_products.json";
-//"https://www.mbdesign.tn/jsonDB/all_products.json"
-// "https://www.course-api.com/react-store-products";
+export const products_url = "jsonDB/all_products.json";
+// local server "jsonDB/all_products.json"
+// production server "https://www.mbdesign.tn/jsonDB/all_products.json"
 
-// export const single_product_url = `https://www.course-api.com/react-store-single-product?id=`;
+// also don't forget to change the url of the thank page in the order component
+// to https://www.mbdesign.tn/thank"
 
 export const colors = ["#ff0000", "#00ff00", "#0000ff", "#000000", "#ffb900"];
 
